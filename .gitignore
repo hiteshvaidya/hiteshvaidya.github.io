@@ -1,0 +1,45 @@
+# Ignore files and directories specific to macOS
+.DS_Store
+*.localized
+
+# Ignore build files and temporary directories
+build/
+dist/
+tmp/
+
+# Ignore package managers and their dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore personal credentials and configurations
+*.env
+secrets.json
+config.json
+
+# Ignore generated files
+*.min.css
+*.min.js
+
+# Ignore test files and coverage reports
+test/
+coverage/
+
+# Ignore documentation build files
+docs/build/
+
+# Ignore logs
+logs/
+
+# Ignore any files ending with .bak or .swp
+*.bak
+*.swp
+
+# You can add additional patterns specific to your website here
+# For example, if you use a content management system, ignore its cache files.
+
+# Remember to adapt this file to your specific needs and technologies used.
